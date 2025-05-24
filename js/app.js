@@ -10,7 +10,6 @@ function fetchAndDisplayCharacters(house) {
         filtered = data.filter(char => char.house === house);
       }
 
-      // Limit to 16 cards
       filtered = filtered.slice(0, 16);
 
       charactersDiv.innerHTML = filtered.map(char => `
@@ -27,10 +26,8 @@ function fetchAndDisplayCharacters(house) {
     .catch(err => console.error(err));
 }
 
-// Initial load: show all
 fetchAndDisplayCharacters('All');
 
-// On dropdown click
 dropdownLinks.forEach(link => {
   link.addEventListener('click', (e) => {
     e.preventDefault();
