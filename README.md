@@ -3,4 +3,4 @@
 This website lists all Hogwarts characters and includes an option to filter them by their house
 
 # Deployment Link
-[Link Text](https://abdullahaot.github.io/Magical_characters/)
+[Magical characters website](https://abdullahaot.github.io/Magical_characters/)
